@@ -28,8 +28,7 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "nodeunit": "https://github.com/chrisJohn404/nodeunit.git",
-        "diff": ">=3.5.0"
+        "nodeunit": "https://github.com/chrisJohn404/nodeunit.git"
     },
     "scripts": {
         "test": "node ./node_modules/nodeunit/bin/nodeunit ./test/test.js"
