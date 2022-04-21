@@ -1,2 +1,4 @@
 # ljswitchboard-ljm_driver_constants
-Splitting the driver constants file out of the LabJack-nodejs project
+A library dedicated to the many constants required of cross platform 
+development, the cross platform LabJack LJM library, and the 
+complications of long-term hardware development.
