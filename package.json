@@ -1,6 +1,6 @@
 {
     "name": "ljswitchboard-ljm_driver_constants",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Library dedicated only to storing important LJM constants",
     "author": {
         "name": "Chris Johnson",
@@ -22,16 +22,16 @@
     "homepage": "https://github.com/chrisJohn404/ljswitchboard-driver_constants",
     "repository": {
         "type": "git",
-        "url": "https://github.com/chrisJohn404/ljswitchboard-driver_constants.git#rework"
+        "url": "https://github.com/chrisJohn404/ljswitchboard-driver_constants.git"
     },
     "files": [
         "lib"
     ],
     "dependencies": {},
     "devDependencies": {
-        "nodeunit": "https://github.com/chrisJohn404/nodeunit.git"
+        "nodeunit-v1": "1.0.0"
     },
     "scripts": {
-        "test": "node ./node_modules/nodeunit/bin/nodeunit ./test/test.js"
+        "test": "node ./node_modules/nodeunit-v1/bin/nodeunit ./test/test.js"
     }
 }
